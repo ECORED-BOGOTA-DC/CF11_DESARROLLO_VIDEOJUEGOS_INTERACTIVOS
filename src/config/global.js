@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Técnicas de testeo y pruebas para videojuegos',
+    descripcionCurso:
+      'El componente de formación hace énfasis en las pruebas del prototipo del juego las cuales comienzan desde la etapa de preproducción, para optimizar el videojuego y corregir los errores o bugs en dicho videojuego.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
