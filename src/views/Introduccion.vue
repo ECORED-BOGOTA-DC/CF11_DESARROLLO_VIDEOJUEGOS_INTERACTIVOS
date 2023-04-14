@@ -9,6 +9,11 @@
           i.fas.fa-info
       h1 Introducción
     
+    .row.mt-5
+      p cambios
+
+
+
 </template>
 
 <script>
