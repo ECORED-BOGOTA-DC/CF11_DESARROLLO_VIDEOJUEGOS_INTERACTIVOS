@@ -31,3 +31,86 @@
 
 .texto-azul
   color: #04B1D9
+
+///// CSS GLOBALES-------
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #F4F4F5
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #F4F4F5
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #05DBF3 !important
+  border: #05DBF3
+  opacity: 100%  
+
+.slyder-a__bullets__item
+  background-color: #87EEFA
+
+//lista con icono
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: red
+        font-weight: 700
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 30px
+        
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 20px
+      margin-right: 0.65rem
+      margin-top: 4px
+      img 
+        width: 50px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 2px   
+
+.margin-icon
+  margin-top: 10px
+
+//CSS Tema 1
+
+.tema1-bg1
+  background-image: url(../assets/curso/temas/tema1/bg1.png)
+  background-size: 100% 100%
+
+.tema1-bg2
+  background-color: #E7E4FD
+  background-size: 100% 100%
+  border-radius: 22px
