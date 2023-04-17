@@ -358,6 +358,90 @@
       p La retroalimentación sobre la calidad del juego no es algo formulado ampliamente como "El juego funciona sin problemas". Incluye cifras concretas, estadísticas y terminología que ofrece información mucho más útil.
       p Repasemos algunas de las métricas clave de control de calidad del juego:
 
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-3.p-xl-3
+              .row.justify-content-center
+                .col-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen') 
+              h4.text-center Eficacia de la prueba
+              p.text-center Esta métrica se recopila en función de docenas de otras medidas, incluida la cantidad de pruebas realizadas, la cantidad de errores encontrados/corregidos y la cantidad de problemas que persisten después de la corrección. 
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img16.svg')})`}")
+            .tarjeta-flip__contenido.p-3.p-xl-3
+              .row.justify-content-center
+                .col-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img17.png', alt='Texto que describa la imagen') 
+              
+              h4.text-center Variables económicas
+              p.text-center Esta métrica se refiere al costo general de las pruebas y el costo por corrección de errores, la variación del costo planificado y real, y la diferencia entre el tiempo planificado y el tiempo real.
+              
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img18.svg')})`}")
+            .tarjeta-flip__contenido.p-3.p-xl-3
+              .row.justify-content-center
+                .col-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img19.png', alt='Texto que describa la imagen')               
+                    
+              h4.text-center Métricas del equipo
+              p.text-center En este caso, se mide el trabajo del equipo de pruebas, tanto como unidad única como individualmente.
+
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img20.svg')})`}")
+            .tarjeta-flip__contenido.p-3.p-xl-3
+              .row.justify-content-center
+                .col-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen')               
+             
+              h4.text-center Variables económicas          
+              p.text-center Los cambios aplicados durante las pruebas se analizan para determinar cuántos problemas se solucionaron, qué nuevos problemas surgieron y cuántos, y otros cambios estadísticamente significativos a lo largo del tiempo.
+
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img22.svg')})`}")
+            .tarjeta-flip__contenido.p-3.p-xl-3
+              .row.justify-content-center
+                .col-6.mb-3
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')               
+              
+              h4.text-center Y muchos otros            
+              p.text-center Dependiendo de a quién le pregunte, puede haber hasta cientos de métricas que una empresa registra y analiza.
+
+    separador
+    #t_1_7.titulo-segundo.color-acento-contenido
+      h2 1.7  Informes de errores
+
+    .row.mb-5.justify-content-center
+      .col-5.col-lg-1.my-3
+        figure
+          img(src='@/assets/curso/temas/tema1/img24.svg', alt='Texto que describa la imagen')     
+
+      .col-lg-11
+        p Los informes de errores son una parte indeleble de la revisión de control de calidad y representan la información/los comentarios recopilados en función de las pruebas de los ingenieros que se pueden utilizar para realizar mejoras adicionales.
+        p Un informe de error tradicional incluirá los siguientes detalles:
+
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        figure
+          img(src='@/assets/curso/temas/tema1/img25.svg', alt='Texto que describa la imagen')       
 
 
 </template>
