@@ -8,7 +8,7 @@
       h1 ¿Por qué es necesario probar los juegos?
 
     .row.justify-content-center.align-items-center
-      .col-2
+      .col-6.col-lg-2.mb-3
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt="alt")      
       .col-10
@@ -21,7 +21,7 @@
       h2 1.1  Tipos de técnicas de pruebas de juegos
 
     .row.justify-content-center.align-items-center
-      .col-1
+      .col-6.col-lg-1.mb-3
         figure
           img(src='@/assets/curso/temas/tema1/img2.png', alt="alt")      
       .col-11
@@ -442,6 +442,97 @@
       .col-lg-10
         figure
           img(src='@/assets/curso/temas/tema1/img25.svg', alt='Texto que describa la imagen')       
+
+
+    separador
+    #t_1_8.titulo-segundo.color-acento-contenido
+      h2 1.8  Tipos principales de métodos de prueba de juegos
+
+    .row.my-5
+      p Cada empresa tiene sus propias percepciones sobre qué pruebas son necesarias para un juego, y la lista incluso puede variar de un proyecto a otro. Aun así, podemos delinear las pruebas más comunes, dividiéndolas en funcionales (pruebas de funcionalidad del juego) y no funcionales (asociadas con el rendimiento general y UX), veamos esto de una manera más detallada:
+
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .tabla-a.mb-5
+          .tabla-b__header.color-acento-contenido
+            h4.mb-0 Principales métodos de testing
+          table
+            tr.tr1
+              td.text-center Pruebas funcionales
+              td.text-center Pruebas no funcionales
+            tr.tr2
+              td.ps-4 Componente/módulo (comprobación del rendimiento de las unidades de software más pequeñas).
+              td.ps-4 Rendimiento (velocidad de carga del juego en tiempo real).
+            tr
+              td.ps-4 Integración (encontrar defectos en interfaces e interacciones de componentes).
+              td.ps-4 Carga/Estrés (comprobación del rendimiento en condiciones de gran actividad/tráfico de usuarios).
+            tr.tr2
+              td.ps-4 Humo (determinando la estabilidad de construcción).
+              td.ps-4 Instalación (qué tan bien se guarda el juego en diferentes dispositivos).
+            tr
+              td.ps-4 Regresión (verificación de correcciones de errores).
+              td.ps-4 Usabilidad (conveniencia de los mecanismos de juego).
+            tr.tr2
+              td.ps-4 Localización (verificación de la consistencia del contenido traducido).
+              td.ps-4 Recuperación (cómo funciona la aplicación después de fallar).
+            tr
+              td.ps-4 Seguridad y control de acceso (identificación de vulnerabilidades y verificación de permisos de usuarios).
+              td.ps-4 
+
+    separador
+    #t_1_9.titulo-segundo.color-acento-contenido
+      h2 1.9  Cómo funcionan las pruebas en diferentes plataformas
+
+    .row.my-5
+      p Los juegos a menudo se lanzan en varias plataformas a la vez e incluso dentro del alcance de una plataforma, los evaluadores deben asegurarse de que todo funcione en diferentes dispositivos. Por lo tanto, hay muchas peculiaridades en lo que respecta a la revisión de control de calidad en diferentes plataformas, esto se entenderá de manera más detallada a continuación:
+
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="PC / Ordenador Personal" :icono="require('@/assets/curso/temas/tema1/img26.png')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 PC / Ordenador Personal
+            p Los dispositivos de escritorio tienden a tener más potencia y más flexibilidad en términos de resolución de pantalla/gráficos. Por lo tanto, si un juego se crea con varias opciones de personalización y optimización en mente, gran parte del trabajo de prueba del juego de PC se centra en asegurarse de que cada jugador con el hardware compatible con el juego pueda elegir las opciones de personalización (o configurarlas automáticamente) para aprovechar al máximo la experiencia.
+            p Además, los juegos de escritorio a menudo aprovechan los teclados grandes al admitir docenas de combinaciones de teclas. El trabajo de un probador de juegos de computadora es asegurarse de que estos comandos funcionan de manera consistente en computadoras con diferentes nombres y composiciones de teclas (por ejemplo, dispositivos macOS, Linux y Windows).
+        
+          .col-md-4.mt-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img27.png', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="Consola" :icono="require('@/assets/curso/temas/tema1/img28.png')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 Consola
+            p Los dos aspectos únicos más importantes de la revisión por parte de un probador de consolas de juegos son: 1) garantizar el cumplimiento y la compatibilidad con los estándares de los fabricantes de consolas; 2) brindar una experiencia de juego uniforme en todas las plataformas y generaciones de consolas. En el primer caso, Xbox, Sony y Nintendo tienen pautas estrictas sobre los parámetros y el contenido de los juegos que se pueden ejecutar en su plataforma, por lo que los evaluadores deben asegurarse de que el producto cumpla con todos los requisitos.
+            p En lo que respecta a la jugabilidad multiplataforma y multi generacional, recientemente hemos visto un ejemplo de trabajo deficiente por parte de un probador de videojuegos de PlayStation con el lanzamiento de Cyberpunk 2077 en PS4. Los desarrolladores tienen un trabajo muy difícil para asegurarse que su aplicación se ejecute tanto en las consolas de generación anterior más débiles, como en la próxima generación, sin mencionar los lanzamientos multiplataforma que son varias veces más complejos.
+            p A su vez, un probador de juegos funcional puede pasar meses eliminando los errores y problemas de rendimiento que surgen antes y después del lanzamiento.
+        
+          .col-md-4.mt-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img29.png', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="Móvil" :icono="require('@/assets/curso/temas/tema1/img30.png')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 Móvil
+            p Una de las mayores dificultades en el desarrollo para dispositivos móviles es hacer uso del espacio de pantalla limitado, por lo que cualquier persona que pruebe juegos móviles de AB debe trabajar duro para verificar que los jugadores puedan acceder a todas las funciones del juego incluso en las pantallas de teléfonos inteligentes más pequeñas.
+            p Otra peculiaridad de estas aplicaciones es que suelen tener funciones multijugador y de redes sociales, que son notoriamente difíciles de desarrollar correctamente. Por lo tanto, las pruebas de carga de juegos móviles y la evaluación multiplataforma son parte integral de la experiencia de control de calidad móvil tradicional.
+            p Por último, es más probable que las aplicaciones móviles utilicen código y elementos de fuente abierta que otras plataformas, lo que las deja vulnerables a piratas informáticos y actores malintencionados. Los desarrolladores a menudo desconocen estos problemas, pero el probador de control de calidad del juego móvil debe estar atento para encontrar y cubrir cualquier vulnerabilidad.
+        
+          .col-md-4.mt-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="VR/AR/MR" :icono="require('@/assets/curso/temas/tema1/img32.png')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 VR/AR/MR
+            p Las aplicaciones inmersivas presentan desafíos únicos para los probadores, pero que se pueden superar. Por ejemplo, el elemento de movimiento de la mayoría de los juegos de realidad virtual puede causar mareos y mareos en algunos jugadores, lo que los desarrolladores a menudo no tienen en cuenta. 
+            p Además de eso, quienes prueban los juegos de realidad virtual deben asegurarse de que el juego transmita adecuadamente las recomendaciones de seguridad, como despejar el área donde el usuario está jugando. De lo contrario, existe la posibilidad de que se lastimen.
+        
+          .col-md-4.mt-3
+            figure
+              img(src='@/assets/curso/temas/tema1/img33.png', alt='Texto que describa la imagen')
+
 
 
 </template>
