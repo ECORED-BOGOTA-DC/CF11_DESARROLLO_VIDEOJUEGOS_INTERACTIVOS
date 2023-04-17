@@ -250,9 +250,113 @@
                       td Esta es una de las últimas etapas de prueba antes de lanzar un juego en producción. A veces, se lleva a cabo como una prueba beta, atrayendo a jugadores fuera del equipo de desarrollo. Rara vez se encuentran grandes problemas, por lo que la atención se centra principalmente en pulir los errores menores restantes y realizar pequeñas mejoras en la experiencia del usuario.
                       td Al involucrar a probadores beta externos, puede obtener una nueva perspectiva sobre la experiencia del jugador y recopilar comentarios valiosos sobre posibles mejoras que el equipo de desarrollo no conocía o no prestó suficiente atención. Por ejemplo, las pruebas beta de juegos móviles pueden atraer a un grupo de edad con ideas y deseos únicos que su equipo de pruebas de adultos no tuvo en cuenta.
 
+    separador
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3  ¿Qué es la automatización de pruebas de juegos?
 
+    .row.my-5
+      p La automatización se da en dos enfoques: en el control de calidad del juego y el otro es la prueba manual. Con la automatización, ciertas pruebas de rendimiento se pueden realizar muchas veces seguidas sin la participación del evaluador, esto ahorra tiempo y hace que sea mucho más probable detectar errores.
+      p Aunque este enfoque es más conveniente que pedirles a los probadores que completen los mismos niveles muchas veces de forma manual, es bastante difícil crear herramientas de automatización adaptadas a una aplicación individual. 
 
+    .row.justify-content-center.mb-4
+      .col-lg-8
+        .cajon.color-secundario.p-4
+          .row.justify-content-center
+            .col-6.col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen') 
+            .col-lg-10
+              p Según una encuesta de empresas de desarrollo de juegos, la mayoría prefiere probar manualmente sus juegos, citando la falta de recursos y tiempo para crear software de automatización.         
 
+    separador
+    #t_1_4.titulo-segundo.color-acento-contenido
+      h2 1.4  ¿Qué hacen los QA #[i testers] de juegos?
+
+    .row.my-5
+      p Muchos jóvenes sueñan con convertirse en probadores de juegos porque pueden jugar todo el día, pero esto solo rasca la superficie de las responsabilidades del puesto. Aparte de revisar la mecánica del juego, tienen tareas menos románticas y dinámicas como:
+
+    .tarjeta--morada.p-4
+      .row
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/temas/tema1/img11.svg', alt='Texto que describa la imagen').img-11    
+
+        .col-lg-7
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span a
+              | Navegación y muestreo de todas las opciones del menú.
+            li 
+              .lista-ol--cuadro__vineta
+                span b
+              | Ejecución de análisis de rendimiento y CPU.
+            li 
+              .lista-ol--cuadro__vineta
+                span c
+              | Muestreo de todas las opciones de personalización.
+            li 
+              .lista-ol--cuadro__vineta
+                span d
+              | Fallar intencionalmente en el juego y probar obstáculos.
+              li 
+              .lista-ol--cuadro__vineta
+                span e
+              | Comprobación y análisis de las especificaciones del sistema.
+            li 
+              .lista-ol--cuadro__vineta
+                span f
+              | Compilar informes y completar formularios de comentarios.
+            li 
+              .lista-ol--cuadro__vineta
+                span g
+              | Ejecución de scripts de prueba y casos de prueba para aplicaciones de juegos.
+
+    .row.my-5
+      p Como se puede observar, hay muchas repeticiones involucradas en las pruebas de funcionalidad del juego y los expertos tienen que dedicar gran parte de su tiempo a otras tareas como hacer informes y trabajar con código y scripts. Para cualquiera que esté considerando este tipo de trabajo, no solo debe amar los juegos, sino también estar preparado para verlos desde un punto de vista analítico y constructivo.
+
+    separador
+    #t_1_5.titulo-segundo.color-acento-contenido
+      h2 1.5  ¿Cómo funciona la prueba de juegos?
+
+    .row.my-5
+      p Como mencionamos anteriormente, las pruebas de juegos implican más que solo iniciar un juego y jugarlo de principio a fin para asegurarse de que funcione sin problemas. Hay docenas de complejidades en el proceso de prueba del juego, así que echemos un vistazo más de cerca.
+
+    .row
+      .col-lg-7.mb-4
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icon1.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Etapas de la prueba del juego
+
+      p.mb-5 La estructura general del proceso de control de calidad es simple, esto es:
+
+      .col-lg-5.my-4
+        figure
+          img(src='@/assets/curso/temas/tema1/img12.svg', alt='Texto que describa la imagen')      
+
+      .col-lg-7
+        p Sin embargo, #[b ¿dónde encaja la revisión de control de calidad en el gran esquema de desarrollo?] Durante las fases iniciales de desarrollo (planificación y producción), los ingenieros de control de calidad tienden a tener muy poca participación. Estas etapas son manejadas principalmente por gerentes de proyecto, expertos en desarrollo comercial y desarrolladores. Aun así, se les puede pedir comentarios sobre cosas como la lógica y el flujo del juego, el diseño de UX y el diseño de interacción.
+
+        .bloque-texto-f.color-secundario.pt-4.px-4.mt-5
+          .bloque-texto-f__avatar
+            .bloque-texto-f__avatar__img
+              img(src='@/assets/curso/temas/tema1/img13.svg', alt='Texto que describa la imagen')
+
+          p.text-regular.bloque-texto-f__texto.mb-3 #[b La mayor parte del trabajo realizado por los ingenieros comienza cuando está lista una compilación jugable de la aplicación. Esto a veces se denomina prueba alfa de videojuegos.] 
+          p.text-regular.bloque-texto-f__texto #[b La revisión se lleva a cabo dentro de los límites de una empresa, con el objetivo de solucionar la mayoría de los problemas y brindar una experiencia de juego completa y de alta calidad]
+
+      p Algunas compañías optan por agregar también juegos de prueba beta al expediente. Con este enfoque, se pide a personas ajenas a la empresa que realicen una vista previa y una prueba beta de los juegos y lanzamientos de PC en otras plataformas (las consolas también son comunes). Esto brinda una comprensión mucho mejor de la impresión general que se puede esperar de los jugadores que la que una empresa podría obtener de unos pocos ingenieros de control de calidad.
+
+    separador
+    #t_1_6.titulo-segundo.color-acento-contenido
+      h2 1.6  Métricas clave de las pruebas funcionales de control de calidad
+
+    .row.my-5
+      p La retroalimentación sobre la calidad del juego no es algo formulado ampliamente como "El juego funciona sin problemas". Incluye cifras concretas, estadísticas y terminología que ofrece información mucho más útil.
+      p Repasemos algunas de las métricas clave de control de calidad del juego:
 
 
 
