@@ -123,8 +123,8 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
-            .tarjeta--blanca
-              .tabla-a
+            .tarjeta--blanca.bordered 
+              .tabla-a.bordered 
                 table
                   thead
                   tbody
@@ -145,8 +145,8 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
-            .tarjeta--blanca
-              .tabla-a
+            .tarjeta--blanca.bordered 
+              .tabla-a.bordered 
                 table
                   thead
                   tbody
@@ -168,8 +168,8 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
-            .tarjeta--blanca
-              .tabla-a
+            .tarjeta--blanca.bordered 
+              .tabla-a.bordered 
                 table
                   thead
                   tbody
@@ -190,8 +190,8 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
-            .tarjeta--blanca
-              .tabla-a
+            .tarjeta--blanca.bordered 
+              .tabla-a.bordered 
                 table
                   thead
                   tbody
@@ -212,8 +212,8 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
-            .tarjeta--blanca
-              .tabla-a
+            .tarjeta--blanca.bordered 
+              .tabla-a.bordered 
                 table
                   thead
                   tbody
@@ -234,8 +234,8 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
-            .tarjeta--blanca
-              .tabla-a
+            .tarjeta--blanca.bordered 
+              .tabla-a.bordered 
                 table
                   thead
                   tbody
