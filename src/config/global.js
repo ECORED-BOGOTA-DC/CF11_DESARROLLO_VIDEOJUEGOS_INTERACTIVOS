@@ -59,6 +59,13 @@ export default {
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Pruebas del sistema',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
