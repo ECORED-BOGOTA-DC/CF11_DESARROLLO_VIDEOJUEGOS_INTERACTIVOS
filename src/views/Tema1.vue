@@ -110,10 +110,150 @@
           .list__txt
             h3.mb-0.tv.margin-icon Pruebas de funcionalidad del juego
 
-    .row
+    .row.mb-5
       p Las pruebas funcionales son una actividad que tiene como objetivo determinar si un juego funciona de acuerdo con las especificaciones e identificar cualquier error o problema que pueda afectar negativamente la experiencia del jugador. Esto se aplica tanto a las pruebas de juegos móviles como a las de otras plataformas, incluidas PC, consolas, web y VR/AR. 
 
       p Podemos ordenar las pruebas en múltiples subtipos:
+
+    .tarjeta.tarjeta--morada.p-4
+      SlyderA(tipo="a")
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-6.col-lg-2.mb-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+
+          .col-md-9.mb-4.mb-md-0
+            .tarjeta--blanca
+              .tabla-a
+                table
+                  thead
+                  tbody
+                    tr.text-center
+                      td #[b Subtipos]
+                      td #[b Descripción]
+                      td #[b Cuándo se necesita]
+
+                  tbody
+                    tr
+                      td #[b Pruebas de juego de interoperabilidad]
+                      td Se utiliza para probar cómo un juego interactúa con otras aplicaciones. Los probadores buscan cualquier problema de compatibilidad, incluida la inaccesibilidad de las funciones, el bajo rendimiento y los retrasos en la comunicación.
+                      td Se utiliza principalmente para juegos multijugador y aquellos que hacen uso de funciones avanzadas del dispositivo (por ejemplo, enlace ascendente de Internet, Bluetooth, cámara, etc.).
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-6.col-lg-2.mb-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+
+          .col-md-9.mb-4.mb-md-0
+            .tarjeta--blanca
+              .tabla-a
+                table
+                  thead
+                  tbody
+                    tr.text-center
+                      td #[b Subtipos]
+                      td #[b Descripción]
+                      td #[b Cuándo se necesita]
+
+                  tbody
+                    tr.text-center
+                      td #[b Pruebas de juegos de regresión]
+                      td Este ciclo se aplica después de las principales actualizaciones de código para asegurarse de que la actualización no haya afectado negativamente la funcionalidad existente (por ejemplo, rompiendo una función, agregando numerosos errores nuevos, etc.). El objetivo es asegurarse de que el código aún funcione.
+                      td Esta es una práctica muy común tanto durante el desarrollo (cuando se crean nuevas compilaciones) como en el período posterior al lanzamiento, cuando se implementan el mantenimiento y las actualizaciones. Puede automatizar muchas de estas pruebas.
+
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-6.col-lg-2.mb-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+
+          .col-md-9.mb-4.mb-md-0
+            .tarjeta--blanca
+              .tabla-a
+                table
+                  thead
+                  tbody
+                    tr.text-center
+                      td #[b Subtipos]
+                      td #[b Descripción]
+                      td #[b Cuándo se necesita]
+
+                  tbody
+                    tr
+                      td #[b Pruebas de juegos de humo]
+                      td La prueba de humo se trata de verificar la estabilidad después de una actualización de código. Sin embargo, tiende a ser una evaluación realmente simple, verificando cosas básicas como si el juego se inicia, si la interfaz de usuario sigue respondiendo. Puede ser realizado tanto por desarrolladores como por probadores.
+                      td La prueba de humo tiende a realizarse justo antes de la prueba de regresión, por lo que podemos decir que es igual de común y esencial para todos los proyectos. Se considera una buena práctica para realizar todos los días del proyecto.
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-6.col-lg-2.mb-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+
+          .col-md-9.mb-4.mb-md-0
+            .tarjeta--blanca
+              .tabla-a
+                table
+                  thead
+                  tbody
+                    tr.text-center
+                      td #[b Subtipos]
+                      td #[b Descripción]
+                      td #[b Cuándo se necesita]
+
+                  tbody
+                    tr
+                      td #[b Pruebas de juego de localización]
+                      td Este método tiene como objetivo garantizar que un juego sea totalmente utilizable y agradable para los jugadores de diferentes países y regiones. En primer lugar, todas las mismas características y funcionalidades deben ser accesibles en diferentes ubicaciones (a menos que se planifique lo contrario). En segundo lugar, el contenido debe adaptarse a los idiomas y culturas donde se presenta.
+                      td Este tipo de prueba es vital si planeas lanzar tu juego en varios idiomas, o si planeas hacer que el contenido esté disponible en diferentes regiones. Por lo tanto, es preferible que los evaluadores tengan un amplio conocimiento de los idiomas/culturas asociados antes de comenzar a evaluar el software.
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-6.col-lg-2.mb-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+
+          .col-md-9.mb-4.mb-md-0
+            .tarjeta--blanca
+              .tabla-a
+                table
+                  thead
+                  tbody
+                    tr.text-center
+                      td #[b Subtipos]
+                      td #[b Descripción]
+                      td #[b Cuándo se necesita]
+
+                  tbody
+                    tr
+                      td #[b Pruebas de juego de control de acceso de seguridad]
+                      td Una práctica muy importante que verifica si existen lagunas o puertas de enlace no autorizadas que puedan permitir que alguien acceda al backend del juego o a elementos/características que de otro modo estarían restringidas. Por ejemplo, algunos jugadores intentan piratear juegos para obtener recompensas o dinero gratis en el juego, hacerse invencibles, etc. y el control de acceso lo impide o al menos reduce la probabilidad.
+                      td Aunque esta forma de prueba rara vez conduce a cambios que afecten la experiencia del usuario o que sean incluso perceptibles, se recomienda realizarla al menos una vez antes del lanzamiento y cada actualización posterior al lanzamiento. Puede ser realizado por ingenieros generales de control de calidad del juego o probadores de pluma (penetración) experimentados.
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-6.col-lg-2.mb-5
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
+
+          .col-md-9.mb-4.mb-md-0
+            .tarjeta--blanca
+              .tabla-a
+                table
+                  thead
+                  tbody
+                    tr.text-center
+                      td #[b Subtipos]
+                      td #[b Descripción]
+                      td #[b Cuándo se necesita]
+
+                  tbody
+                    tr
+                      td #[b Pruebas de juego de aceptación del usuario]
+                      td Esta es una de las últimas etapas de prueba antes de lanzar un juego en producción. A veces, se lleva a cabo como una prueba beta, atrayendo a jugadores fuera del equipo de desarrollo. Rara vez se encuentran grandes problemas, por lo que la atención se centra principalmente en pulir los errores menores restantes y realizar pequeñas mejoras en la experiencia del usuario.
+                      td Al involucrar a probadores beta externos, puede obtener una nueva perspectiva sobre la experiencia del jugador y recopilar comentarios valiosos sobre posibles mejoras que el equipo de desarrollo no conocía o no prestó suficiente atención. Por ejemplo, las pruebas beta de juegos móviles pueden atraer a un grupo de edad con ideas y deseos únicos que su equipo de pruebas de adultos no tuvo en cuenta.
+
+
+
+
+
 
 
 </template>
