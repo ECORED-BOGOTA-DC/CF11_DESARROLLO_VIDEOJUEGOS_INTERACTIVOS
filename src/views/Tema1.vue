@@ -277,7 +277,7 @@
 
     .tarjeta--morada.p-4
       .row
-        .col-lg-5
+        .col-lg-5.mb-4
           figure
             img(src='@/assets/curso/temas/tema1/img11.svg', alt='Texto que describa la imagen').img-11    
 

@@ -268,3 +268,57 @@ td
   
 .color-vineta2
   color: #8979F3 !important
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -20px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/fondo1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: space
+
+.img7-tm3
+  position: relative
+  width: 70%
+  margin-top: 10%
+  left: 20%
+  @media (max-width: 500px)
+    width: 100%
+    margin-top: 0%
+    left: 0%
+
+.img9-tm3
+  position: relative
+  width: 70%
+  @media (max-width: 500px)
+    width: 100%
+
+.img-14
+  width: 90%
+  max-width: 100%
+  position: relative
+  margin-top: -20%
+  margin-left: 10%
+  margin-bottom: -30px
+
+.color-tarjeta
+  background-color: #CCF9FE
+
+.img-infografica__card
+  top: 25% !important
+  left: 35% !important
+  width: 400px
+  @media (max-width: 500px)
+    width: 300px
+    top: 60% !important
+    left: 0% !important
