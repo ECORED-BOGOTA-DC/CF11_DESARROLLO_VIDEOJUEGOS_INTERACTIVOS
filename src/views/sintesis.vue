@@ -3,9 +3,10 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p En el siguiente esquema se resumen los pasos y temas claves para aplicar técnicas de testeo y pruebas para los videojuegos:
+    .row.mb-5
+      p En el siguiente esquema se resumen los pasos y temas claves para aplicar técnicas de testeo y pruebas para los videojuegos:
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
