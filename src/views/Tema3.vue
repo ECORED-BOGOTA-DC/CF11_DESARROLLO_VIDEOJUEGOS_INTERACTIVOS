@@ -14,7 +14,7 @@
 
       .col-lg-9
         p Se ha decidido crear un solo epígrafe para las pruebas tanto unitarias como de integración dado que, por la naturaleza del propio programa, Unity y de los juegos como software desarrollado es casi imposible encontrar elementos aislados de código que funcionen sin depender de otros.
-        p Es importante mencionar que en este apartado aparte de las pruebas realizadas también se han considerado como pruebas los logs generados durante el desarrollo del proyecto, así como las ejecuciones en el editor como parte de la integración porque al tratarse de un juego, los elementos debían coordinarse a la perfección para no obtener bugs indeseados.
+        p Es importante mencionar que en este apartado aparte de las pruebas realizadas también se han considerado como pruebas los logs generados durante el desarrollo del proyecto, así como las ejecuciones en el editor como parte de la integración porque al tratarse de un juego, los elementos debían coordinarse a la perfección para no obtener <i>bugs</i> indeseados.
 
       p De esta manera se subsanan errores que aparecían al producirse excepciones en el código. Para llevar a cabo estas pruebas se ha hecho uso de una funcionalidad implementada por Unity llamada Test Runner que permite su configuración y ejecución. 
 
@@ -58,7 +58,7 @@
             li
               i.fas.fa-plus.color-vineta1
               span.texto-blanco
-                | Nos ayuda a anticipar y localizar posibles bugs de manera más rápida y eficiente.
+                | Nos ayuda a anticipar y localizar posibles <i>bugs</i> de manera más rápida y eficiente.
             li
               i.fas.fa-plus.color-vineta1
               span.texto-blanco

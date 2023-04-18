@@ -57,7 +57,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: ' ¿Qué hacen los QA testers de juegos?',
+            titulo: ' ¿Qué hacen los QA <i>testers</i> de juegos?',
             hash: 't_1_4',
           },
           {
@@ -98,14 +98,15 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Cómo iniciar las pruebas o testing en un videojuego',
+        titulo: 'Cómo iniciar las pruebas o <i>testing</i> en un videojuego',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Utilizando el Framework Test Runner - Unit testing en unity',
+        titulo:
+          'Utilizando el <i>Framework Test Runner - Unit testing en unity</i>',
         desarrolloContenidos: true,
       },
       {

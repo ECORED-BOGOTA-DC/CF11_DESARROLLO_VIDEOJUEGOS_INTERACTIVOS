@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt="alt")      
       .col-10
-        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o bugs. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la App Store y la Play Store, pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
+        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o <i>bugs</i>. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la App Store y la Play Store, pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
 
         p Con tantos juegos llegando al mercado diariamente, hay que ser diferente para destacar y dejar huella. Los niveles complejos no son suficientes para que los usuarios se enganchen a un juego y lo recomienden a sus amigos, ya que si el juego no funciona como los usuarios esperan, no tardarán en desinstalarlo y pasarse a otro.
 
@@ -77,7 +77,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Pruebas de Cleanroom
-            p La técnica de pruebas de cleanroom válida y mejora el rendimiento de la consistencia y la fiabilidad del software de juegos. Mediante el uso de las pruebas de cleanroom, se puede identificar la causa principal detrás de los bugs y pequeños errores. 
+            p La técnica de pruebas de cleanroom válida y mejora el rendimiento de la consistencia y la fiabilidad del software de juegos. Mediante el uso de las pruebas de cleanroom, se puede identificar la causa principal detrás de los <i>bugs</i> y pequeños errores. 
 
             p El plan es que los testers de juegos creen pruebas que jueguen al juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
             
