@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt="alt")      
       .col-10
-        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o <i>bugs</i>. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la App Store y la Play Store, pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
+        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o <i>bugs</i>. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la #[i App Store] y la #[i Play Store], pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
 
         p Con tantos juegos llegando al mercado diariamente, hay que ser diferente para destacar y dejar huella. Los niveles complejos no son suficientes para que los usuarios se enganchen a un juego y lo recomienden a sus amigos, ya que si el juego no funciona como los usuarios esperan, no tardarán en desinstalarlo y pasarse a otro.
 
@@ -25,10 +25,10 @@
         figure
           img(src='@/assets/curso/temas/tema1/img2.png', alt="alt")      
       .col-11
-        p Los encargados de las pruebas de control de calidad en un estudio de videojuegos (QA, Quality Assurance) buscan los problemas y los puntos débiles que se pueden pulir antes de lanzar el producto al público, además, deben asegurarse, a través de diversas técnicas, que aspectos como la conectividad emocional con el juego o el nivel de diversión estén en óptimas condiciones.
+        p Los encargados de las pruebas de control de calidad en un estudio de videojuegos (QA, #[i Quality Assurance]) buscan los problemas y los puntos débiles que se pueden pulir antes de lanzar el producto al público, además, deben asegurarse, a través de diversas técnicas, que aspectos como la conectividad emocional con el juego o el nivel de diversión estén en óptimas condiciones.
 
     p.mt-3
-      A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA testers especialistas en pruebas de control de calidad de juegos:
+      A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA #[i testers] especialistas en pruebas de control de calidad de juegos:
 
     .tarjeta.tarjeta--azul.p-4.tema1-bg1
       SlyderA(tipo="b").p-5
@@ -37,7 +37,7 @@
             h4 Pruebas de Funcionalidad
             p La función de esta técnica de pruebas de juegos es comprobar si el videojuego funciona de acuerdo con las especificaciones. Algunos de los problemas que sigue la técnica de pruebas de funcionalidad son los gráficos genéricos, la interfaz, la estabilidad o los problemas mecánicos. Además, con esta técnica se pueden resolver errores como el freezing, el crashing o los bloqueos de progresión.
 
-            p Los testers del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los testers del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
+            p Los testers del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los #[i testers] del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
 
           .col-md-6
             figure
@@ -68,7 +68,7 @@
             h4 Pruebas de Compatibilidad
             p Esta técnica de prueba de juegos te ayuda a validar si la interfaz de usuario es compatible con todos los tamaños de pantalla en los que se puede jugar. Cada dispositivo es único y puede presentar diferentes problemas, como el uso del hardware, los detalles gráficos, el tamaño de la pantalla o las aplicaciones de fondo. 
 
-            p Tras la verificación, el videojuego debe cumplir los requisitos esenciales del software, el hardware y los gráficos. Realizar las pruebas de compatibilidad en dispositivos físicos es la mejor manera de determinar el rendimiento con precisión y conocer la experiencia del usuario final.
+            p Tras la verificación, el videojuego debe cumplir los requisitos esenciales del #[i software], el hardware y los gráficos. Realizar las pruebas de compatibilidad en dispositivos físicos es la mejor manera de determinar el rendimiento con precisión y conocer la experiencia del usuario final.
             
           .col-md-6
             figure
@@ -77,9 +77,9 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Pruebas de Cleanroom
-            p La técnica de pruebas de cleanroom válida y mejora el rendimiento de la consistencia y la fiabilidad del software de juegos. Mediante el uso de las pruebas de cleanroom, se puede identificar la causa principal detrás de los <i>bugs</i> y pequeños errores. 
+            p La técnica de pruebas de cleanroom válida y mejora el rendimiento de la consistencia y la fiabilidad del #[i software] de juegos. Mediante el uso de las pruebas de cleanroom, se puede identificar la causa principal detrás de los <i>bugs</i> y pequeños errores. 
 
-            p El plan es que los testers de juegos creen pruebas que jueguen al juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
+            p El plan es que los #[i testers] de juegos creen pruebas que jueguen al juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
             
           .col-md-6
             figure
@@ -88,7 +88,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Pruebas de Regresión
-            p El propósito de esta técnica de prueba del juego es comprobar de nuevo si las funciones del juego operan de forma óptima, lo que ayuda a controlar la calidad que es tan importante para la experiencia de los jugadores. En la práctica, los testers de juegos vuelven a comprobar el juego y comparan los resultados actuales con los obtenidos en las pruebas. Quieren ver si se han producido nuevos errores debido a los cambios y ver si hay algún fallo antiguo.
+            p El propósito de esta técnica de prueba del juego es comprobar de nuevo si las funciones del juego operan de forma óptima, lo que ayuda a controlar la calidad que es tan importante para la experiencia de los jugadores. En la práctica, los #[i testers] de juegos vuelven a comprobar el juego y comparan los resultados actuales con los obtenidos en las pruebas. Quieren ver si se han producido nuevos errores debido a los cambios y ver si hay algún fallo antiguo.
             
           .col-md-6
             figure
@@ -137,7 +137,7 @@
                     tr
                       td #[b Pruebas de juego de interoperabilidad]
                       td Se utiliza para probar cómo un juego interactúa con otras aplicaciones. Los probadores buscan cualquier problema de compatibilidad, incluida la inaccesibilidad de las funciones, el bajo rendimiento y los retrasos en la comunicación.
-                      td Se utiliza principalmente para juegos multijugador y aquellos que hacen uso de funciones avanzadas del dispositivo (por ejemplo, enlace ascendente de Internet, Bluetooth, cámara, etc.).
+                      td Se utiliza principalmente para juegos multijugador y aquellos que hacen uso de funciones avanzadas del dispositivo (por ejemplo, enlace ascendente de #[i Internet, Bluetooth,] cámara, etc.).
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-6.col-lg-2.mb-5
@@ -204,7 +204,7 @@
                     tr
                       td #[b Pruebas de juego de localización]
                       td Este método tiene como objetivo garantizar que un juego sea totalmente utilizable y agradable para los jugadores de diferentes países y regiones. En primer lugar, todas las mismas características y funcionalidades deben ser accesibles en diferentes ubicaciones (a menos que se planifique lo contrario). En segundo lugar, el contenido debe adaptarse a los idiomas y culturas donde se presenta.
-                      td Este tipo de prueba es vital si planeas lanzar tu juego en varios idiomas, o si planeas hacer que el contenido esté disponible en diferentes regiones. Por lo tanto, es preferible que los evaluadores tengan un amplio conocimiento de los idiomas/culturas asociados antes de comenzar a evaluar el software.
+                      td Este tipo de prueba es vital si planeas lanzar tu juego en varios idiomas, o si planeas hacer que el contenido esté disponible en diferentes regiones. Por lo tanto, es preferible que los evaluadores tengan un amplio conocimiento de los idiomas/culturas asociados antes de comenzar a evaluar el #[i software].
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-6.col-lg-2.mb-5
@@ -225,7 +225,7 @@
                   tbody
                     tr
                       td #[b Pruebas de juego de control de acceso de seguridad]
-                      td Una práctica muy importante que verifica si existen lagunas o puertas de enlace no autorizadas que puedan permitir que alguien acceda al backend del juego o a elementos/características que de otro modo estarían restringidas. Por ejemplo, algunos jugadores intentan piratear juegos para obtener recompensas o dinero gratis en el juego, hacerse invencibles, etc. y el control de acceso lo impide o al menos reduce la probabilidad.
+                      td Una práctica muy importante que verifica si existen lagunas o puertas de enlace no autorizadas que puedan permitir que alguien acceda al #[i backend] del juego o a elementos/características que de otro modo estarían restringidas. Por ejemplo, algunos jugadores intentan piratear juegos para obtener recompensas o dinero gratis en el juego, hacerse invencibles, etc. y el control de acceso lo impide o al menos reduce la probabilidad.
                       td Aunque esta forma de prueba rara vez conduce a cambios que afecten la experiencia del usuario o que sean incluso perceptibles, se recomienda realizarla al menos una vez antes del lanzamiento y cada actualización posterior al lanzamiento. Puede ser realizado por ingenieros generales de control de calidad del juego o probadores de pluma (penetración) experimentados.
 
         .row.justify-content-center.align-items-center.my-lg-4
@@ -266,7 +266,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen') 
             .col-lg-10
-              p Según una encuesta de empresas de desarrollo de juegos, la mayoría prefiere probar manualmente sus juegos, citando la falta de recursos y tiempo para crear software de automatización.         
+              p Según una encuesta de empresas de desarrollo de juegos, la mayoría prefiere probar manualmente sus juegos, citando la falta de recursos y tiempo para crear #[i software] de automatización.         
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -461,7 +461,7 @@
               td.text-center Pruebas funcionales
               td.text-center Pruebas no funcionales
             tr.tr2
-              td.ps-4 Componente/módulo (comprobación del rendimiento de las unidades de software más pequeñas).
+              td.ps-4 Componente/módulo (comprobación del rendimiento de las unidades de #[i software] más pequeñas).
               td.ps-4 Rendimiento (velocidad de carga del juego en tiempo real).
             tr
               td.ps-4 Integración (encontrar defectos en interfaces e interacciones de componentes).

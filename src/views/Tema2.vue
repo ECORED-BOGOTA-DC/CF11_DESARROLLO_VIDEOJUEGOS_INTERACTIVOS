@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/tema2/img1.png', alt="alt")      
       .col-lg-10
         p En teoría, cualquiera puede aprender a probar un juego, incluso si no está capacitado para ser un ingeniero de control de calidad. Sin embargo, tener éxito y eficacia en las pruebas es otra cuestión, y los proyectos a gran escala generalmente necesitan evaluadores calificados para tener éxito. Por lo tanto, puede considerar contratar a estos profesionales o delegar las pruebas a una empresa con amplia experiencia en el campo.
-        p Cualquiera que sea la opción que elija, el proceso de prueba será más o menos el mismo. Entendemos que las docenas de tipos de pruebas que enumeramos son únicas y requieren software, metodología y conocimientos diferentes, pero las etapas de las pruebas suelen ser uniformes como se observa a continuación:
+        p Cualquiera que sea la opción que elija, el proceso de prueba será más o menos el mismo. Entendemos que las docenas de tipos de pruebas que enumeramos son únicas y requieren #[i software], metodología y conocimientos diferentes, pero las etapas de las pruebas suelen ser uniformes como se observa a continuación:
 
     .row.justify-content-center.my-5
       .col-lg-8
@@ -62,7 +62,7 @@
           .list__txt
             h3.mb-0.tv.margin-icon Evaluación y pruebas
 
-      p.mb-5 Este apartado tiene como objetivo comentar las pruebas realizadas en el juego desarrollado. Las pruebas son un elemento fundamental en un desarrollo software y deben realizarse siempre para evitar fallos no deseados. Existen los siguientes tipos de pruebas: 
+      p.mb-5 Este apartado tiene como objetivo comentar las pruebas realizadas en el juego desarrollado. Las pruebas son un elemento fundamental en un desarrollo #[i software] y deben realizarse siempre para evitar fallos no deseados. Existen los siguientes tipos de pruebas: 
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-acento-contenido.p-4

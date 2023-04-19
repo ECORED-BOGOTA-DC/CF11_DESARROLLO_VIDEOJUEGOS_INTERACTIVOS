@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Utilizando el Framework Test Runner - Unit testing en unity
+      h1 Utilizando el #[i Framework Test Runner - Unit testing en unity]
 
     .row.justify-content-center.mb-5
       .col-8.col-lg-3
@@ -13,10 +13,10 @@
           img(src='@/assets/curso/temas/tema3/img1.png', alt='Texto que describa la imagen')        
 
       .col-lg-9
-        p Se ha decidido crear un solo epígrafe para las pruebas tanto unitarias como de integración dado que, por la naturaleza del propio programa, Unity y de los juegos como software desarrollado es casi imposible encontrar elementos aislados de código que funcionen sin depender de otros.
+        p Se ha decidido crear un solo epígrafe para las pruebas tanto unitarias como de integración dado que, por la naturaleza del propio programa, #[i unity] y de los juegos como #[i software] desarrollado es casi imposible encontrar elementos aislados de código que funcionen sin depender de otros.
         p Es importante mencionar que en este apartado aparte de las pruebas realizadas también se han considerado como pruebas los logs generados durante el desarrollo del proyecto, así como las ejecuciones en el editor como parte de la integración porque al tratarse de un juego, los elementos debían coordinarse a la perfección para no obtener <i>bugs</i> indeseados.
 
-      p De esta manera se subsanan errores que aparecían al producirse excepciones en el código. Para llevar a cabo estas pruebas se ha hecho uso de una funcionalidad implementada por Unity llamada Test Runner que permite su configuración y ejecución. 
+      p De esta manera se subsanan errores que aparecían al producirse excepciones en el código. Para llevar a cabo estas pruebas se ha hecho uso de una funcionalidad implementada por #[i unity] llamada #[i Test Runner] que permite su configuración y ejecución. 
 
 
     .row.justify-content-center.mb-5
@@ -26,11 +26,11 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img2.png')})`}"
           )
           .bloque-texto-g1__texto.p-3
-            p.mb-4 Algo que la mayoría de las veces solemos dejar completamente de lado a la hora de desarrollar nuevas features en nuestros juegos son, sin duda, los Unit Tests.
-            p El Unity Test Runner hace uso de la #[b librería NUnit que es una librería de pruebas de software libre para lenguajes .Net.] El Test Runner permite ejecutar los test tanto en modo editor (edit mode) como en modo de juego (play mode). 
+            p.mb-4 Algo que la mayoría de las veces solemos dejar completamente de lado a la hora de desarrollar nuevas #[i features] en nuestros juegos son, sin duda, los Unit Tests.
+            p El #[i unity Test Runner] hace uso de la #[b librería #[i NUnit] que es una librería de pruebas de #[i software] libre para lenguajes .Net.] El #[i Test Runner] permite ejecutar los test tanto en modo editor (edit mode) como en modo de juego (play mode). 
 
     .row.mb-5
-      p Sin embargo, el uso de estas herramientas que proporciona el software de Unity 3D se deja casi siempre de lado ya sea por poco conocimiento sobre el uso de este framework, ya que este posee muchas bondades. De esta manera cabe resaltar que la implementación de estos test en nuestros proyectos siempre nos va a demandar un buen gasto de tiempo y esfuerzo extra que no siempre podemos o estamos dispuestos a perder, sumado a la falsa sensación de pérdida de tiempo por estar invirtiendo una parte importante de nuestro trabajo en desarrollar código que ni siquiera pertenece al producto final, puede que el hacer un repaso de algunos de sus pros y contras nos haga verlo de otro modo. Al respecto:
+      p Sin embargo, el uso de estas herramientas que proporciona el #[i software] de #[i unity] 3D se deja casi siempre de lado ya sea por poco conocimiento sobre el uso de este #[i framework,] ya que este posee muchas bondades. De esta manera cabe resaltar que la implementación de estos test en nuestros proyectos siempre nos va a demandar un buen gasto de tiempo y esfuerzo extra que no siempre podemos o estamos dispuestos a perder, sumado a la falsa sensación de pérdida de tiempo por estar invirtiendo una parte importante de nuestro trabajo en desarrollar código que ni siquiera pertenece al producto final, puede que el hacer un repaso de algunos de sus pros y contras nos haga verlo de otro modo. Al respecto:
 
     .row.mb-5
       .col-lg-6
@@ -94,8 +94,8 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen') 
             .col-lg-10
-              p La clave está en mantener el equilibrio que las propias circunstancias de nuestro proyecto nos permitan. No se trata de hacer testing de todo o de nada, siempre va a ser mejor hacerlo de algunas partes que no hacerlo de nada. 
-              p Por ello, creo que es posible buscar siempre un balance que nos permita llevar adelante el desarrollo de nuestro proyecto de manera que encaje en tiempos/planificaciones y, a su vez, tenga en cuenta la implementación de test en la medida de lo posible (un enfoque correcto sería por ejemplo priorizar Unit testing para aquellas mecánicas que consideremos más importantes o prioritarias).
+              p La clave está en mantener el equilibrio que las propias circunstancias de nuestro proyecto nos permitan. No se trata de hacer #[i testing] de todo o de nada, siempre va a ser mejor hacerlo de algunas partes que no hacerlo de nada. 
+              p Por ello, creo que es posible buscar siempre un balance que nos permita llevar adelante el desarrollo de nuestro proyecto de manera que encaje en tiempos/planificaciones y, a su vez, tenga en cuenta la implementación de test en la medida de lo posible (un enfoque correcto sería por ejemplo priorizar #[i Unit testing] para aquellas mecánicas que consideremos más importantes o prioritarias).
 
     .row.mb-5
       .col-lg-7.mb-4
@@ -104,10 +104,10 @@
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icon1.svg', alt='')
           .list__txt
-            h3.mb-0.tv.margin-icon Configurar Test Runner
+            h3.mb-0.tv.margin-icon Configurar #[i Test Runner]
 
     .row.mb-5
-      p Antes de comenzar a desarrollar el código para los respectivos tests, se debe inicialmente configurar Test Runner, que es la herramienta que viene integrada con Unity para gestionar todo lo relacionado con Unit testing y la cual utiliza el framework NUnit. Veamos los siguientes pasos:
+      p Antes de comenzar a desarrollar el código para los respectivos tests, se debe inicialmente configurar #[i Test Runner], que es la herramienta que viene integrada con #[i unity] para gestionar todo lo relacionado con Unit #[i testing] y la cual utiliza el #[i framework NUnit]. Veamos los siguientes pasos:
 
     .row.my-5(data-aos="fade-zoom")
       figure
@@ -123,7 +123,7 @@
         .col-lg-10
           .tarjeta.tarjeta--blanca.text-center.p-4
             b Es momento de abrir su propio scrip
-              span.texto-azul  «CheckPointTests»
+              span.texto-azul  #[i «CheckPointTests»]
               |  y limpiarlo para partir de cero, así:
 
             .row.justify-content-center.my-5
@@ -137,20 +137,20 @@
             img(src='@/assets/curso/temas/tema3/img7.svg', alt='Texto que describa la imagen').img7-tm3      
 
         .col-lg-5
-          p.mt-3 En este ejercicio, a modo de ejemplo, se abordará la implementación de los siguientes casos de prueba que, aunque por definición no puedan considerarse 100 % tests unitarios, ya que contemplan el testeo de features más generales, son perfectamente válidos y servirán para ilustrar el desarrollo de tests (queda a criterio propio el plantear todos los casos que estimes necesarios):
+          p.mt-3 En este ejercicio, a modo de ejemplo, se abordará la implementación de los siguientes casos de prueba que, aunque por definición no puedan considerarse 100 % tests unitarios, ya que contemplan el testeo de #[i features] más generales, son perfectamente válidos y servirán para ilustrar el desarrollo de tests (queda a criterio propio el plantear todos los casos que estimes necesarios):
 
         .col-lg-5
           .cajon.color-secundario.p-3
             ul.lista-ul--color.mb-0
               li
                 i.fas.fa-check.color-vineta2
-                | Caso de prueba para que un checkpoint se cree correctamente.
+                | Caso de prueba para que un #[i CheckPoint] se cree correctamente.
               li
                 i.fas.fa-check.color-vineta2
-                | Caso de prueba para que un checkpoint sea activado por el player correctamente.     
+                | Caso de prueba para que un #[i CheckPoint] sea activado por el #[i player] correctamente.     
               li
                 i.fas.fa-check.color-vineta2
-                | Caso de prueba para que el player, tras morir, sea teletransportado al último checkpoint activado.
+                | Caso de prueba para que el #[i player], tras morir, sea teletransportado al último #[i CheckPoint] activado.
 
       .row.justify-content-center.mb-5
         .col-lg-10
@@ -163,7 +163,7 @@
                   img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen') 
 
       .row.mb-5
-        p Antes de iniciar a escribir el código del primer caso de prueba conviene señalar la existencia de 2 atributos especiales que van a ser útiles a la hora de implementar sus funciones de test en Unity.
+        p Antes de iniciar a escribir el código del primer caso de prueba conviene señalar la existencia de 2 atributos especiales que van a ser útiles a la hora de implementar sus funciones de test en #[i unity].
 
       .row.mb-5
         h4 Se trata de 
@@ -177,7 +177,7 @@
       .col-lg-11
         p
           span.texto-azul <b><i>[SetUp]:</i></b>
-          |  este atributo, colocado encima de una de las funciones de su script de tests, específica a Unity que dicha función debe ser ejecutada antes de la ejecución de cada una de las funciones de test normales. 
+          |  este atributo, colocado encima de una de las funciones de su script de tests, específica a #[i unity] que dicha función debe ser ejecutada antes de la ejecución de cada una de las funciones de test normales. 
 
         p Esto permite, por ejemplo, crear e inicializar objetos comunes a todas las pruebas sin tener que estar realizándose al inicio de cada prueba. Por tanto, empiece por crear la función de #[i SetUp:]
 
@@ -200,7 +200,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span a
-              | Instanciar el prefab del player en el punto (0, 0, 0) de la escena.
+              | Instanciar el #[i prefab] del #[i player] en el punto (0, 0, 0) de la escena.
             li 
               .lista-ol--cuadro__vineta
                 span b
@@ -208,7 +208,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span c
-              | Instanciar el prefab del enemigo en un punto alejado al player (200, 0, 0).
+              | Instanciar el #[i prefab] del enemigo en un punto alejado al #[i player] (200, 0, 0).
             li 
               .lista-ol--cuadro__vineta
                 span d
@@ -222,7 +222,7 @@
       .col-lg-11
         p
           span.texto-azul <b><i>[TearDown]:</i></b> 
-          |  este atributo, colocado encima de una de las funciones del script de tests, específica a Unity que dicha función debe ser ejecutada después de la ejecución de cada una de las funciones de test normales. Esto permite, por ejemplo, destruir o limpiar objetos comunes a todas las pruebas sin tener que estar realizándose al final de cada prueba. Por tanto, debe crear la función de TearDown:
+          |  este atributo, colocado encima de una de las funciones del script de tests, específica a #[i unity] que dicha función debe ser ejecutada después de la ejecución de cada una de las funciones de test normales. Esto permite, por ejemplo, destruir o limpiar objetos comunes a todas las pruebas sin tener que estar realizándose al final de cada prueba. Por tanto, debe crear la función de TearDown:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -243,7 +243,7 @@
             li.ps-lg-5 
               .lista-ol--cuadro__vineta
                 span a
-              | Destruir el objeto instanciado del player.
+              | Destruir el objeto instanciado del #[i player].
             li.ps-lg-5 
               .lista-ol--cuadro__vineta
                 span b
@@ -251,15 +251,15 @@
             li.ps-lg-5  
               .lista-ol--cuadro__vineta
                 span c
-              | Destruir el objeto instanciado del checkpoint.
+              | Destruir el objeto instanciado del #[i CheckPoint].
             li.ps-lg-5  
               .lista-ol--cuadro__vineta
                 span d
-              | Limpiar la lista de checkpoints en escena.
+              | Limpiar la lista de #[i CheckPoints] en escena.
 
     .row.mb-5
       p Bien, ya puede empezar a escribir sus 3 casos de prueba.
-      p.mt-4 #[b Empecemos con el primero:] la creación correcta de un checkpoint en escena.
+      p.mt-4 #[b Empecemos con el primero:] la creación correcta de un #[i CheckPoint] en escena.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -281,7 +281,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span a
-              | Instanciar el prefab del checkpoint en el punto (100, 0, 0) de la escena, para que no esté tocando al #[i player.]
+              | Instanciar el #[i prefab] del #[i CheckPoint] en el punto (100, 0, 0) de la escena, para que no esté tocando al #[i player.]
             li 
               .lista-ol--cuadro__vineta
                 span b
@@ -293,16 +293,16 @@
             li 
               .lista-ol--cuadro__vineta
                 span d
-              | Una vez instanciado el checkpoint, realizar los siguientes chequeos:
+              | Una vez instanciado el #[i CheckPoint], realizar los siguientes chequeos:
           ul.lista-ul--color
             li.ps-5
               i.fas.fa-plus.color-vineta1
               span
-                | El número de objetos en la lista de checkpoints en escena debe ser 1.
+                | El número de objetos en la lista de #[i CheckPoints] en escena debe ser 1.
             li.ps-5
               i.fas.fa-plus.color-vineta1
               span
-                | El nuevo checkpoint debe estar desactivado.
+                | El nuevo #[i CheckPoint] debe estar desactivado.
 
     .row.mb-5
       p Sobre lo anterior, veamos el siguiente análisis del código:
@@ -314,7 +314,7 @@
 
       .tarjeta.color-tarjeta.p-4(x="13%" y="31%" numero="1")
         h4 1. UnityTest
-        p Este atributo lo usará en cada una de las funciones de test y le indica a Unity que es uno de los test y que debe ejecutarlo dentro de su Test Suite correspondiente.
+        p Este atributo lo usará en cada una de las funciones de test y le indica a #[i unity] que es uno de los test y que debe ejecutarlo dentro de su Test Suite correspondiente.
 
       .tarjeta.color-tarjeta.p-4(x="22%" y="35%" numero="2")
         h4 2. heckPointIsCreatedProperly
@@ -326,13 +326,13 @@
 
       .tarjeta.color-tarjeta.p-4(x="16%" y="56%" numero="4")
         h4 4. Assert
-        p Como se puede observar en el paso 4 de nuestra lógica, se hace uso de la clase Assert para realizar los diferentes chequeos de nuestro caso de prueba. Una de las funciones más utilizadas es la de AreEqueal(), ya que con ella puede contemplar la mayoría de casos, pero siéntase libre de explorar todas las opciones que ofrece. Por último, recalcar el último parámetro de tipo string que le pasamos a los assertions: sirve para que la consola del Test Runner dé un mensaje personalizado cuando un determinado Assert NO se ha cumplido.
+        p Como se puede observar en el paso 4 de nuestra lógica, se hace uso de la clase Assert para realizar los diferentes chequeos de nuestro caso de prueba. Una de las funciones más utilizadas es la de AreEqueal(), ya que con ella puede contemplar la mayoría de casos, pero siéntase libre de explorar todas las opciones que ofrece. Por último, recalcar el último parámetro de tipo string que le pasamos a los assertions: sirve para que la consola del #[i Test Runner] dé un mensaje personalizado cuando un determinado Assert NO se ha cumplido.
 
     .row.mb-5
       p A partir de ahora ya maneja lo básico y necesario para realizar cualquier tipo de test. Así que acabemos de ver los siguientes casos de prueba: 
 
     .row.mb-5
-      b.text-center «La activación correcta de un checkpoint» y «El posicionamiento del player al último checkpoint después de morir»
+      b.text-center «La activación correcta de un #[i CheckPoint]» y «El posicionamiento del #[i player] al último #[i CheckPoint] después de morir»
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -356,10 +356,9 @@
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icon1.svg', alt='')
           .list__txt
-            h3.mb-0.tv.margin-icon Configurar Test Runner
+            h3.mb-0.tv.margin-icon Ejecutar #[i tests]
 
-    .row.mb-5
-      p Antes de comenzar a desarrollar el código para los respectivos tests, se debe inicialmente configurar Test Runner, que es la herramienta que viene integrada con Unity para gestionar todo lo relacionado con Unit testing y la cual utiliza el framework NUnit. Veamos los siguientes pasos:
+      p En este punto, lo único que nos queda es realizar la ejecución de las pruebas. Para ello, tenga en cuenta lo que se indica en el siguiente video:
 
     .row.justify-content-center.my-5(data-aos="fade-zoom")
       .col-lg-10
@@ -368,7 +367,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
-      h4.text-center.texto-azul ¡Disfruta del testing!
+      h4.text-center.texto-azul ¡Disfruta del #[i testing]!
 
 
 

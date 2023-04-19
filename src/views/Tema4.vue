@@ -63,7 +63,7 @@
         figure
 
       .col-10
-        p Para realizar y analizar las pruebas de rendimiento se hizo uso de la herramienta Profiler de Unity. El Profiler ayuda a optimizar el juego. Se trata de un reporte en ejecución que calcula el tiempo empleado en la ejecución distintas áreas del juego o los recursos consumidos, esto lo puede revisar de manera más detallada en el video que se expone a continuación:
+        p Para realizar y analizar las pruebas de rendimiento se hizo uso de la herramienta Profiler de #[i Unity]. El Profiler ayuda a optimizar el juego. Se trata de un reporte en ejecución que calcula el tiempo empleado en la ejecución distintas áreas del juego o los recursos consumidos, esto lo puede revisar de manera más detallada en el video que se expone a continuación:
 
 
     .row.my-5(data-aos="fade-zoom")
