@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1
+        span.texto-blanco 1
       h1 ¿Por qué es necesario probar los juegos?
 
     .row.justify-content-center.align-items-center
@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt="alt")      
       .col-10
-        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o <i>bugs</i>. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la #[i App Store] y la #[i Play Store], pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
+        p Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o <i>bugs</i>. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la App Store y la Play Store, pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
 
         p Con tantos juegos llegando al mercado diariamente, hay que ser diferente para destacar y dejar huella. Los niveles complejos no son suficientes para que los usuarios se enganchen a un juego y lo recomienden a sus amigos, ya que si el juego no funciona como los usuarios esperan, no tardarán en desinstalarlo y pasarse a otro.
 
@@ -27,17 +27,16 @@
       .col-11
         p Los encargados de las pruebas de control de calidad en un estudio de videojuegos (QA, #[i Quality Assurance]) buscan los problemas y los puntos débiles que se pueden pulir antes de lanzar el producto al público, además, deben asegurarse, a través de diversas técnicas, que aspectos como la conectividad emocional con el juego o el nivel de diversión estén en óptimas condiciones.
 
-    p.mt-3
-      A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA #[i testers] especialistas en pruebas de control de calidad de juegos:
+    p.mt-3 A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA #[i testers] especialistas en pruebas de control de calidad de juegos:
 
     .tarjeta.tarjeta--azul.p-4.tema1-bg1
       SlyderA(tipo="b").p-5
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Pruebas de Funcionalidad
-            p La función de esta técnica de pruebas de juegos es comprobar si el videojuego funciona de acuerdo con las especificaciones. Algunos de los problemas que sigue la técnica de pruebas de funcionalidad son los gráficos genéricos, la interfaz, la estabilidad o los problemas mecánicos. Además, con esta técnica se pueden resolver errores como el freezing, el crashing o los bloqueos de progresión.
+            p La función de esta técnica de pruebas de juegos es comprobar si el videojuego funciona de acuerdo con las especificaciones. Algunos de los problemas que sigue la técnica de pruebas de funcionalidad son los gráficos genéricos, la interfaz, la estabilidad o los problemas mecánicos. Además, con esta técnica se pueden resolver errores como el #[i freezing], el #[i crashing] o los bloqueos de progresión.
 
-            p Los testers del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los #[i testers] del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
+            p Los #[i testers] del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los #[i testers] del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
 
           .col-md-6
             figure
@@ -54,10 +53,10 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Pruebas Ad Hoc
+            h4 Pruebas #[i ad hoc]
             p Este método no es algo formal, sino que, por el contrario, todos los procedimientos se realizan de forma aleatoria. Esta técnica de pruebas de juego también se denomina “adivinación de errores” y consiste en detectar los fallos mediante un enfoque aleatorio. Por lo tanto, no es necesaria ninguna documentación especial, como documentos de requisitos, planes de pruebas, casos de prueba, ni una planificación adecuada de las pruebas en cuanto a su calendario y orden de realización.
 
-            p Dado que las pruebas ad hoc son más bien una técnica de prueba “salvaje” que no tiene que estar estructurada, la recomendación general es que se realicen después de la ejecución del conjunto de pruebas correspondiente. Otro punto de vista es que se puede realizar cuando no se pueden realizar pruebas detalladas por falta de tiempo.
+            p Dado que las pruebas #[i ad hoc] son más bien una técnica de prueba “salvaje” que no tiene que estar estructurada, la recomendación general es que se realicen después de la ejecución del conjunto de pruebas correspondiente. Otro punto de vista es que se puede realizar cuando no se pueden realizar pruebas detalladas por falta de tiempo.
             
           .col-md-6
             figure
@@ -66,9 +65,9 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Pruebas de Compatibilidad
-            p Esta técnica de prueba de juegos te ayuda a validar si la interfaz de usuario es compatible con todos los tamaños de pantalla en los que se puede jugar. Cada dispositivo es único y puede presentar diferentes problemas, como el uso del hardware, los detalles gráficos, el tamaño de la pantalla o las aplicaciones de fondo. 
+            p Esta técnica de prueba de juegos permite validar si la interfaz de usuario es compatible con todos los tamaños de pantalla en los que se puede jugar. Cada dispositivo es único y puede presentar diferentes problemas, como el uso del #[i hardware], los detalles gráficos, el tamaño de la pantalla o las aplicaciones de fondo. 
 
-            p Tras la verificación, el videojuego debe cumplir los requisitos esenciales del #[i software], el hardware y los gráficos. Realizar las pruebas de compatibilidad en dispositivos físicos es la mejor manera de determinar el rendimiento con precisión y conocer la experiencia del usuario final.
+            p Tras la verificación, el videojuego debe cumplir los requisitos esenciales del #[i software], el #[i hardware] y los gráficos. Realizar las pruebas de compatibilidad en dispositivos físicos es la mejor manera de determinar el rendimiento con precisión y conocer la experiencia del usuario final.
             
           .col-md-6
             figure
@@ -76,10 +75,10 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Pruebas de Cleanroom
-            p La técnica de pruebas de cleanroom válida y mejora el rendimiento de la consistencia y la fiabilidad del #[i software] de juegos. Mediante el uso de las pruebas de cleanroom, se puede identificar la causa principal detrás de los <i>bugs</i> y pequeños errores. 
+            h4 Pruebas de #[i cleanroom]
+            p La técnica de pruebas de #[i cleanroom] valida y mejora el rendimiento de la consistencia y la fiabilidad del #[i software] de juegos. Mediante el uso de las pruebas de #[i cleanroom], se puede identificar la causa principal detrás de los <i>bugs</i> y pequeños errores. 
 
-            p El plan es que los #[i testers] de juegos creen pruebas que jueguen al juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
+            p El plan es que los #[i testers] de juegos creen pruebas que jueguen el juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
             
           .col-md-6
             figure
@@ -137,7 +136,7 @@
                     tr
                       td #[b Pruebas de juego de interoperabilidad]
                       td Se utiliza para probar cómo un juego interactúa con otras aplicaciones. Los probadores buscan cualquier problema de compatibilidad, incluida la inaccesibilidad de las funciones, el bajo rendimiento y los retrasos en la comunicación.
-                      td Se utiliza principalmente para juegos multijugador y aquellos que hacen uso de funciones avanzadas del dispositivo (por ejemplo, enlace ascendente de #[i Internet, Bluetooth,] cámara, etc.).
+                      td Se utiliza principalmente para juegos multijugador y aquellos que hacen uso de funciones avanzadas del dispositivo (por ejemplo, enlace ascendente de internet, #[i bluetooth,] cámara, etc.).
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-6.col-lg-2.mb-5
@@ -203,7 +202,7 @@
                   tbody
                     tr
                       td #[b Pruebas de juego de localización]
-                      td Este método tiene como objetivo garantizar que un juego sea totalmente utilizable y agradable para los jugadores de diferentes países y regiones. En primer lugar, todas las mismas características y funcionalidades deben ser accesibles en diferentes ubicaciones (a menos que se planifique lo contrario). En segundo lugar, el contenido debe adaptarse a los idiomas y culturas donde se presenta.
+                      td Este método tiene como objetivo garantizar que un juego sea totalmente utilizable y agradable para los jugadores de diferentes países y regiones. En primer lugar, todas las características y funcionalidades deben ser accesibles en diferentes ubicaciones (a menos que se planifique lo contrario). En segundo lugar, el contenido debe adaptarse a los idiomas y culturas donde se presenta.
                       td Este tipo de prueba es vital si planeas lanzar tu juego en varios idiomas, o si planeas hacer que el contenido esté disponible en diferentes regiones. Por lo tanto, es preferible que los evaluadores tengan un amplio conocimiento de los idiomas/culturas asociados antes de comenzar a evaluar el #[i software].
 
         .row.justify-content-center.align-items-center.my-lg-4
@@ -299,7 +298,7 @@
               .lista-ol--cuadro__vineta
                 span d
               | Fallar intencionalmente en el juego y probar obstáculos.
-              li 
+            li 
               .lista-ol--cuadro__vineta
                 span e
               | Comprobación y análisis de las especificaciones del sistema.
@@ -310,10 +309,10 @@
             li 
               .lista-ol--cuadro__vineta
                 span g
-              | Ejecución de scripts de prueba y casos de prueba para aplicaciones de juegos.
+              | Ejecución de #[i scripts] de prueba y casos de prueba para aplicaciones de juegos.
 
     .row.my-5
-      p Como se puede observar, hay muchas repeticiones involucradas en las pruebas de funcionalidad del juego y los expertos tienen que dedicar gran parte de su tiempo a otras tareas como hacer informes y trabajar con código y scripts. Para cualquiera que esté considerando este tipo de trabajo, no solo debe amar los juegos, sino también estar preparado para verlos desde un punto de vista analítico y constructivo.
+      p Como se puede observar, hay muchas repeticiones involucradas en las pruebas de funcionalidad del juego y los expertos tienen que dedicar gran parte de su tiempo a otras tareas como hacer informes y trabajar con código y #[i scripts]. Para cualquiera que esté considerando este tipo de trabajo, no solo debe amar los juegos, sino también estar preparado para verlos desde un punto de vista analítico y constructivo.
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -363,12 +362,12 @@
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")
             .tarjeta-flip__contenido.p-3.p-xl-3
               .row.justify-content-center
                 .col-6.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen') 
+                    img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen') 
               h4.text-center Eficacia de la prueba
               p.text-center Esta métrica se recopila en función de docenas de otras medidas, incluida la cantidad de pruebas realizadas, la cantidad de errores encontrados/corregidos y la cantidad de problemas que persisten después de la corrección. 
 
@@ -380,7 +379,7 @@
               .row.justify-content-center
                 .col-6.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img17.png', alt='Texto que describa la imagen') 
+                    img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen') 
               
               h4.text-center Variables económicas
               p.text-center Esta métrica se refiere al costo general de las pruebas y el costo por corrección de errores, la variación del costo planificado y real, y la diferencia entre el tiempo planificado y el tiempo real.
@@ -393,7 +392,7 @@
               .row.justify-content-center
                 .col-6.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img19.png', alt='Texto que describa la imagen')               
+                    img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')               
                     
               h4.text-center Métricas del equipo
               p.text-center En este caso, se mide el trabajo del equipo de pruebas, tanto como unidad única como individualmente.
@@ -402,12 +401,12 @@
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img20.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img20.png')})`}")
             .tarjeta-flip__contenido.p-3.p-xl-3
               .row.justify-content-center
                 .col-6.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen')               
+                    img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen')               
              
               h4.text-center Variables económicas          
               p.text-center Los cambios aplicados durante las pruebas se analizan para determinar cuántos problemas se solucionaron, qué nuevos problemas surgieron y cuántos, y otros cambios estadísticamente significativos a lo largo del tiempo.
@@ -420,7 +419,7 @@
               .row.justify-content-center
                 .col-6.mb-3
                   figure
-                    img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')               
+                    img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen')               
               
               h4.text-center Y muchos otros            
               p.text-center Dependiendo de a quién le pregunte, puede haber hasta cientos de métricas que una empresa registra y analiza.
@@ -458,8 +457,8 @@
             h4.mb-0 Principales métodos de testing
           table
             tr.tr1
-              td.text-center Pruebas funcionales
-              td.text-center Pruebas no funcionales
+              td.text-center #[b Pruebas funcionales]
+              td.text-center #[b Pruebas no funcionales]
             tr.tr2
               td.ps-4 Componente/módulo (comprobación del rendimiento de las unidades de #[i software] más pequeñas).
               td.ps-4 Rendimiento (velocidad de carga del juego en tiempo real).
@@ -491,7 +490,7 @@
         .row
           .col-md-8.mb-4.mb-md-0
             h4 PC / Ordenador Personal
-            p Los dispositivos de escritorio tienden a tener más potencia y más flexibilidad en términos de resolución de pantalla/gráficos. Por lo tanto, si un juego se crea con varias opciones de personalización y optimización en mente, gran parte del trabajo de prueba del juego de PC se centra en asegurarse de que cada jugador con el hardware compatible con el juego pueda elegir las opciones de personalización (o configurarlas automáticamente) para aprovechar al máximo la experiencia.
+            p Los dispositivos de escritorio tienden a tener más potencia y más flexibilidad en términos de resolución de pantalla/gráficos. Por lo tanto, si un juego se crea con varias opciones de personalización y optimización en mente, gran parte del trabajo de prueba del juego de PC se centra en asegurarse de que cada jugador con el #[i hardware] compatible con el juego pueda elegir las opciones de personalización (o configurarlas automáticamente) para aprovechar al máximo la experiencia.
             p Además, los juegos de escritorio a menudo aprovechan los teclados grandes al admitir docenas de combinaciones de teclas. El trabajo de un probador de juegos de computadora es asegurarse de que estos comandos funcionan de manera consistente en computadoras con diferentes nombres y composiciones de teclas (por ejemplo, dispositivos macOS, Linux y Windows).
         
           .col-md-4.mt-5
@@ -503,7 +502,7 @@
           .col-md-8.mb-4.mb-md-0
             h4 Consola
             p Los dos aspectos únicos más importantes de la revisión por parte de un probador de consolas de juegos son: 1) garantizar el cumplimiento y la compatibilidad con los estándares de los fabricantes de consolas; 2) brindar una experiencia de juego uniforme en todas las plataformas y generaciones de consolas. En el primer caso, Xbox, Sony y Nintendo tienen pautas estrictas sobre los parámetros y el contenido de los juegos que se pueden ejecutar en su plataforma, por lo que los evaluadores deben asegurarse de que el producto cumpla con todos los requisitos.
-            p En lo que respecta a la jugabilidad multiplataforma y multi generacional, recientemente hemos visto un ejemplo de trabajo deficiente por parte de un probador de videojuegos de PlayStation con el lanzamiento de Cyberpunk 2077 en PS4. Los desarrolladores tienen un trabajo muy difícil para asegurarse que su aplicación se ejecute tanto en las consolas de generación anterior más débiles, como en la próxima generación, sin mencionar los lanzamientos multiplataforma que son varias veces más complejos.
+            p En lo que respecta a la jugabilidad multiplataforma y multi generacional, recientemente hemos visto un ejemplo de trabajo deficiente por parte de un probador de videojuegos de PlayStation con el lanzamiento de #[i Cyberpunk 2077] en PS4. Los desarrolladores tienen un trabajo muy difícil para asegurarse que su aplicación se ejecute tanto en las consolas de generación anterior más débiles, como en la próxima generación, sin mencionar los lanzamientos multiplataforma que son varias veces más complejos.
             p A su vez, un probador de juegos funcional puede pasar meses eliminando los errores y problemas de rendimiento que surgen antes y después del lanzamiento.
         
           .col-md-4.mt-5

@@ -16,7 +16,7 @@
 
       .col-lg-10.mt-5
         p.mb-0 Estimado aprendiz, continuando con este maravilloso aprendizaje, reflexione sobre lo siguiente: 
-          span.texto-azul #[b Antes de que una mariposa pueda tomar su primer vuelo, debe empujar y luchar para salir de un capullo. Sin este desafiante obstáculo, sería demasiado débil para sobrevivir en el mundo exterior.] 
+          span.texto-azul #[b antes de que una mariposa pueda tomar su primer vuelo, debe empujar y luchar para salir de un capullo. Sin este desafiante obstáculo, sería demasiado débil para sobrevivir en el mundo exterior.] 
           |  ¿Qué tiene esto que ver con las pruebas de juego? Bueno, como una mariposa, cada juego debe someterse a una prueba seria que lo fortalezca antes de lanzarlo al mundo. Por lo anterior le invitamos a revisar el siguiente video para identificar el contexto de aprendizaje de este componente formativo:
 
     .row.my-5(data-aos="fade-zoom")

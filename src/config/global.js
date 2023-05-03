@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Técnicas de testeo y pruebas para videojuegos',
     descripcionCurso:
-      'El componente de formación hace énfasis en las pruebas del prototipo del juego las cuales comienzan desde la etapa de preproducción, para optimizar el videojuego y corregir los errores o bugs en dicho videojuego.',
+      'El componente de formación hace énfasis en las pruebas del prototipo del juego las cuales comienzan desde la etapa de preproducción, para optimizar el videojuego y corregir los errores o <i>bugs</i> en dicho videojuego.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -106,7 +106,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Utilizando el <i>Framework Test Runner - Unit testing en unity</i>',
+          'Utilizando el Framework Test Runner - <i>unit testing</i> en Unity',
         desarrolloContenidos: true,
       },
       {
@@ -180,7 +180,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Ad Hoc',
+      termino: '<i>Ad hoc</i>',
       significado:
         'que es apropiado, adecuado o especialmente dispuesto para un determinado fin',
     },

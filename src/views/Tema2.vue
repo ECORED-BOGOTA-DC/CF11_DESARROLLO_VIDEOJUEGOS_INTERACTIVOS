@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 Cómo iniciar las pruebas o testing en un videojuego
+        span.texto-blanco 2
+      h1 Cómo iniciar las pruebas o #[i testing] en un videojuego
 
     .row.justify-content-center.align-items-center
       .col-6.col-lg-2.mb-3
@@ -69,7 +69,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/img6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen')
           
         h4.text-center Pruebas unitarias
         p.text-center Estas pruebas tienen como objetivo verificar la funcionalidad y estructura de cada componente individual de código realizado. Son pruebas a nivel de métodos codificados.
@@ -79,7 +79,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img7.svg', alt='Texto que describa la imagen')
           
         h4.text-center.texto-negro Pruebas de integración
         p.text-center.texto-negro Su objetivo es comprobar el correcto ensamblaje entre los distintos componentes del código, cubren la funcionalidad establecida y se ajustan, en mayor medida, a los requisitos funcionales.
@@ -89,7 +89,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/img8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img8.svg', alt='Texto que describa la imagen')
           
         h4.text-center Pruebas de sistema
         p.text-center Están destinadas a probar el sistema como un todo y se centran en los requisitos no funcionales como por ejemplo la gestión de recursos, compatibilidad, usabilidad. Suelen estar enfocadas a la gestión de los recursos como el procesador o la memoria. 
@@ -98,7 +98,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/img9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen')
           
         h4.text-center.texto-negro Pruebas de aceptación
         p.text-center.texto-negro Se usan para validar que el sistema cumple con el funcionamiento esperado y permitir al usuario del sistema que determine su aceptación sobre la funcionalidad y el rendimiento. 
