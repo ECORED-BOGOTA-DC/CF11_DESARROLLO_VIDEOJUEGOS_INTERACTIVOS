@@ -146,6 +146,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -256,14 +261,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -271,9 +277,57 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Xiomara Becerra Aldana',
+          cargo: 'Instructora Ambiental',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Lubin Andrés Hernández Sanabria',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Jesús Ricardo Arias Munevar',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Javier Ricardo Luna Pineda',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Rafael Neftali Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro: 'Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Martha Isabel Martínez Vargas',
+          cargo: 'Productora audiovisual',
+          centro: 'Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuadora instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodólogo para la formación virtual - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor metodológico',
+          centro:
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -281,19 +335,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora web',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -301,14 +358,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validadora de recursos educativos',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validadora de recursos educativos',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
