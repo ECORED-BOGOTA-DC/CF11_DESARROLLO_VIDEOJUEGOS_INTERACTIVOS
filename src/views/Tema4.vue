@@ -11,7 +11,7 @@
       figure
         img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
 
-      p.mt-5 Se dividieron las pruebas de sistema en tres bloques diferenciados atendiendo a los requisitos o funcionalidades establecidos previamente en este documento, como son: 
+      p.mt-5 Se dividieron las pruebas de sistema en tres bloques diferenciados atendiendo a los requisitos o funcionalidades establecidas previamente en este documento, como son: 
 
     .row
       .col-lg-7

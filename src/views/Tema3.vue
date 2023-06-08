@@ -123,7 +123,7 @@
         .col-lg-10
           .tarjeta.tarjeta--blanca.text-center.p-4
             b Es momento de abrir su propio script 
-              span.texto-azul  #[i «CheckPointTests»]
+              span.texto-azul  #[i «checkpointests»]
               |  y limpiarlo para partir de cero, así:
 
             .row.justify-content-center.my-5
@@ -255,7 +255,7 @@
             li.ps-lg-5  
               .lista-ol--cuadro__vineta
                 span d
-              | Limpiar la lista de #[i CheckPoints] en escena.
+              | Limpiar la lista de #[i checkpoints] en escena.
 
     .row.mb-5
       p Bien, ya puede empezar a escribir sus 3 casos de prueba.
@@ -298,7 +298,7 @@
             li.ps-5
               i.fas.fa-plus.color-vineta1
               span
-                | El número de objetos en la lista de #[i CheckPoints] en escena debe ser 1.
+                | El número de objetos en la lista de #[i checkpoints] en escena debe ser 1.
             li.ps-5
               i.fas.fa-plus.color-vineta1
               span
@@ -317,7 +317,7 @@
         p Este atributo lo usará en cada una de las funciones de test y le indica a Unity que es uno de los test y que debe ejecutarlo dentro de su Test Suite correspondiente.
 
       .tarjeta.color-tarjeta.p-4(x="22%" y="35%" numero="2")
-        h4 2. checkointIsCreatedProperly
+        h4 2. CheckPointIsCreatedProperly
         p Es el nombre de la función y siempre es recomendable que los nombres de las funciones referentes a sus tests sean lo más claros e intuitivos posible, por tanto no se preocupe si queda un nombre demasiado largo.
 
       .tarjeta.color-tarjeta.p-4(x="17%" y="40%" numero="3")
