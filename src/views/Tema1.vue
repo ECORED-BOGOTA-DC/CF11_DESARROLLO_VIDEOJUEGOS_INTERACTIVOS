@@ -79,6 +79,8 @@
             p La técnica de pruebas de #[i cleanroom] valida y mejora el rendimiento de la consistencia y la fiabilidad del #[i software] de juegos. Mediante el uso de las pruebas de #[i cleanroom], se puede identificar la causa principal detrás de los <i>bugs</i> y pequeños errores. 
 
             p El plan es que los #[i testers] de juegos creen pruebas que jueguen el juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
+
+            p Tomado de: https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos
             
           .col-md-6
             figure
@@ -362,7 +364,7 @@
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.svg')})`}")
             .tarjeta-flip__contenido.p-3.p-xl-3
               .row.justify-content-center
                 .col-6.mb-3
@@ -401,14 +403,14 @@
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img20.png')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img20.svg')})`}")
             .tarjeta-flip__contenido.p-3.p-xl-3
               .row.justify-content-center
                 .col-6.mb-3
                   figure
                     img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen')               
              
-              h4.text-center Variables económicas          
+              h4.text-center Cambiar métricas       
               p.text-center Los cambios aplicados durante las pruebas se analizan para determinar cuántos problemas se solucionaron, qué nuevos problemas surgieron y cuántos, y otros cambios estadísticamente significativos a lo largo del tiempo.
 
       .col-sm-6.col-xl-3.mb-4.mb-sm-0
