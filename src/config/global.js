@@ -148,7 +148,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_11_ V1_228108.pdf',
       },
       {
         icono: 'fas fa-download',
