@@ -1281,7 +1281,7 @@
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6U4etSOAUZk" displaytext="Para abrir el Test Runner se hace clic en:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5dbTNEJ55u1" displaytext="Cuál es el atributo (Función) usado en el test runner de Unity 3D para analizar objetos comunes en todas las pruebas:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5dbTNEJ55u1" displaytext="Cuál es el atributo (función) usado en el test runner de Unity 3D para analizar objetos comunes en todas las pruebas:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5eQezW6Z2AR" displaytext="Clase que sirve para que la consola del Test Runner dé un mensaje personalizado cuando un determinado Assert NO se ha cumplido:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6BKDPvYIQDR" displaytext="Este atributo lo usaremos en cada una de nuestras funciones de test y le indica a Unity que es uno de nuestros test y que debe ejecutarlo dentro de su Test Suite correspondiente:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6OUKTPzxFOY" displaytext="Opción del menú de Test Runner para lanzar todos los Test de prueba:" expand="false" type="slide" />
