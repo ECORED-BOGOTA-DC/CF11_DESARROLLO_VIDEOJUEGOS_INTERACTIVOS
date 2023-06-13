@@ -29,7 +29,7 @@
 
     p.mt-3 A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA #[i testers] especialistas en pruebas de control de calidad de juegos:
 
-    .tarjeta.tarjeta--azul.p-4.tema1-bg1
+    .tarjeta.tarjeta--azul.p-4.tema1-bg1.mb-3
       SlyderA(tipo="b").p-5
         .row
           .col-md-6.mb-4.mb-md-0
@@ -80,7 +80,6 @@
 
             p El plan es que los #[i testers] de juegos creen pruebas que jueguen el juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
 
-            p Tomado de: https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos
             
           .col-md-6
             figure
@@ -94,6 +93,9 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
+
+    .row.mb-5
+      p #[b Tomado de:] https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos
 
 
     separador
@@ -364,7 +366,7 @@
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}")
             .tarjeta-flip__contenido.p-3.p-xl-3
               .row.justify-content-center
                 .col-6.mb-3

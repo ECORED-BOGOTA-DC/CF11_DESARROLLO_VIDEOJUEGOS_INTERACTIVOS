@@ -123,7 +123,7 @@
         .col-lg-10
           .tarjeta.tarjeta--blanca.text-center.p-4
             b Es momento de abrir su propio script 
-              span.texto-azul  #[i «checkpointests»]
+              span.texto-azul  #[i «CheckPoinTests»]
               |  y limpiarlo para partir de cero, así:
 
             .row.justify-content-center.my-5
