@@ -94,8 +94,12 @@
             figure
               img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
 
-    .row.mb-5
-      p #[b Tomado de:] https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos
+    a.anexo.mb-4.mb-lg-0(href="https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Tomado de:] https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos
+
 
 
     separador

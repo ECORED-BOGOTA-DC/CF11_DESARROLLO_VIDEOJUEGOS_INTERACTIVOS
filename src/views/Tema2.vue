@@ -45,13 +45,12 @@
                 img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto que describa la imagen')
 
           .row
-            .col-md-8.mb-4.mb-md-0
-              h3 Informes de errores y correcciones
-              p Los ingenieros de control de calidad encuentran muchos tipos de errores en las pruebas de juegos y es su trabajo documentarlos todos. Los datos de la prueba y los errores/problemas identificados se empaquetan en un informe de errores y se envían a los desarrolladores para que los corrijan en una compilación futura.
-          
-            .col-md-4.mt-4
+            .col-md-4.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema2/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img3.png', alt='Texto que describa la imagen')
+            .col-md-8
+              h3 Finalización y beta
+              p Llega un punto en cada ciclo de desarrollo de juegos en el que un juego está más o menos completo y solo quedan algunos problemas menores. En este punto, algunos editores lanzan una versión beta y recopilan comentarios de las pruebas de los usuarios del juego, mientras que otros se enfocan en pulir el título por su cuenta. A veces, debido a limitaciones de tiempo, los juegos se lanzan con algunos problemas/errores menores sin resolver, pero las correcciones se implementan en una actualización posterior al lanzamiento.
 
     .row
       .col-lg-7.mb-4

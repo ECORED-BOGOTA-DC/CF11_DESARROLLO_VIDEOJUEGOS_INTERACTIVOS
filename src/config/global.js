@@ -176,12 +176,6 @@ export default {
       tipo: '[otro]',
       link: 'https://www.kodeco.com/9454-introduction-to-unity-unit-testing',
     },
-    {
-      tema: '4. Pruebas del sistema',
-      referencia: 'Unity Learn. (s,f.). <i>Unit 10 - Testing</i>',
-      tipo: '[otro]',
-      link: 'https://learn.unity.com/tutorial/unit-10-testing',
-    },
   ],
   glosario: [
     {
@@ -253,7 +247,7 @@ export default {
       referencia:
         'Scandinaro, D. (2021). <i>On-Demand QA Testing with Unity Automated QA.</i>',
       link:
-        '. https://blog.unity.com/games/on-demand-qa-testing-with-unity-automated-qa',
+        'https://blog.unity.com/games/on-demand-qa-testing-with-unity-automated-qa',
     },
   ],
   creditos: [
