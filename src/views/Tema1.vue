@@ -130,6 +130,9 @@
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
           .col-md-9.mb-4.mb-md-0
+            .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 1.
+                span Pruebas de juegos
             .tarjeta--blanca.bordered 
               .tabla-a.bordered 
                 table
@@ -447,6 +450,9 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 1. 
+          span Informe de errores  
         figure
           img(src='@/assets/curso/temas/tema1/img25.svg', alt='Texto que describa la imagen')       
 
@@ -460,6 +466,9 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 2.
+          span Principales métodos de “testing”.  
         .tabla-a.mb-5
           .tabla-b__header.color-acento-contenido
             h4.mb-0 Principales métodos de testing
