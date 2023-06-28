@@ -249,6 +249,12 @@ export default {
       link:
         'https://blog.unity.com/games/on-demand-qa-testing-with-unity-automated-qa',
     },
+    {
+      referencia:
+        'Starloop Studios. (2022). <i>6 Tipos de Técnicas de Pruebas de Juegos</i>.',
+      link:
+        'https://starloopstudios.com/6-tipos-de-tecnicas-de-pruebas-de-juegos',
+    },
   ],
   creditos: [
     {
